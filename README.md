@@ -1,5 +1,5 @@
-# apicurio.github.io
-Web site for the Apicurio project.
+# djai-app.github.io
+Web site for the DJAI project.
 
 This repository is a standard GitHub Pages repository.  As such, it uses ruby and bundler 
 to manage dependencies and allow local building/serving of the project site.  Here's how 
