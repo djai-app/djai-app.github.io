@@ -3,7 +3,8 @@ description: 'Open Source API Design and Registry.'
 url: 'https://www.apicur.io'
 _baseurl: 'https://www.apicur.io'
 github_username: apicurio
-github_url: https://github.com/apicurio
+github_linkedin: https://www.linkedin.com/company/djai
+github_url: https://github.com/djai-app
 github_studio_url: https://github.com/apicurio/apicurio-studio
 github_registry_url: https://github.com/apicurio/apicurio-registry
 github_apicurito_url: https://github.com/apicurio/apicurito
