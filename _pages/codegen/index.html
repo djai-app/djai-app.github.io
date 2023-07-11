@@ -5,16 +5,18 @@ layout: page
 ---
 
 {% assign latestRelease = site.data.codegen.latestRelease %}
+{% assign version = site.data.registry.latestRelease.tag_name | remove_first: "v" %}
+{% assign theasset = site.data.registry.latestRelease.assets[0] %}
 
 <div class="jumbotron codegen">
     <div class="logoimg">
         <img src="{{ site.baseurl }}/images/dj-cdgn.png" alt="apicurio datamodels subproject logo">
     </div>
     <div class="tagline tagline-1">
-        <span>Code Generation</span>
+        <span>DJAI CODEGEN</span>
     </div>
     <div class="tagline tagline-2">
-        <span>for OpenAPI and AsyncAPI</span>
+        <span>Code Generation library for OpenAPI and AsyncAPI</span>
     </div>
 </div>
 
@@ -31,12 +33,12 @@ layout: page
 
     <div class="info">
         <span class="info-label"><span class="fa fa-fw fa-github"></span>Clone or fork</span>
-        <span class="info-value"><a href="{{ site.github_datamodels_url }}">on GitHub</a></span>
+        <span class="info-value"><a href="{{ site.github_codegen_url }}">on GitHub</a></span>
     </div>
 
 </div>
 
-<div class="container projpage">
+<div class="container codegen">
     <div class="row">
         <div class="col-md-3">
             {%- include codegen/_projnav.html -%}
