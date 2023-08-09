@@ -10,10 +10,7 @@ layout: page
 
 <div class="jumbotron codegen">
     <div class="logoimg">
-        <img src="{{ site.baseurl }}/images/dj-cdgn.png" alt="apicurio datamodels subproject logo">
-    </div>
-    <div class="tagline tagline-1">
-        <span>DJAI CODEGEN</span>
+        <img class="codegen-image" src="{{ site.baseurl }}/images/djai-code-generator.png" alt="apicurio datamodels subproject logo">
     </div>
     <div class="tagline tagline-2">
         <span>Code Generation library for OpenAPI and AsyncAPI</span>
@@ -48,42 +45,38 @@ layout: page
                 <div class="row summary">
                     <div class="col-lg-10">
                         <h1 class="section-header first">What is this library?</h1>
-                        <p>
+                        <div class="description">
                             The DJAI Code Generator is a Java and Kotlin compatible library
                             that provides code generation for OpenAPI and AsyncAPI documents. 
                             Use this library if you need to generate code for either OpenAPI or AsyncAPI specifications in your own projects.
-                        </p>
+                        </div>
                     </div>
                 </div>
                 <div class="row summary">
                     <div class="col-lg-10">
                         <h1 class="section-header first">Key Features</h1>
                         <div class="key-feature">
-                            <div class="name">Code generation</div>
-                            <div class="description">
-                                Generate code in multiple languages from OpenAPI and AsyncAPI specifications.
-                            </div>
+                            <div class="header">Code generation</div>
+                                <div class="description">
+                                    Generate code in multiple languages from OpenAPI and AsyncAPI specifications.
+                                </div>
+                            <div class="header">Supports both Java and Kotlin</div>
+                                <div class="description">
+                                    Use this library in your Java or Kotlin based applications! 
+                                    It works the same no matter how you use it.
+                                </div>
+                            <div class="header">Convert OpenAPI 2.0 to OpenAPI 3.0</div>
+                                <div class="description">
+                                    Includes a built-in transformer for easily converting older "Swagger" 
+                                    documents into the newer OpenAPI 3 format.
+                                </div>
+                            <div class="header">Supports Mustache Templates</div>
+                                <div class="description">
+                                    Use Mustache templates to customize the generated code to your needs. 
+                                    The library comes with a set of default templates, 
+                                    but you can also create your own or override existing.
+                                </div>
                         </div>
-                        <div class="key-feature">
-                            <div class="name">Supports both Java and Kotlins</div>
-                            <div class="description">
-                                Use this library in your Java or Kotlin based applications! It works the same no matter how you use it.
-                            </div>
-                        </div>
-                        <div class="key-feature">
-                            <div class="name">Convert OpenAPI 2.0 to OpenAPI 3.0</div>
-                            <div class="description">
-                                Includes a built-in transformer for easily converting older "Swagger" documents into the newer OpenAPI 3 format.
-                            </div>
-                        </div>
-                        <div class="key-feature">
-                            <div class="name">Supports Mustache Templates</div>
-                            <div class="description">
-                                Use Mustache templates to customize the generated code to your needs. The library comes with a set of default templates, 
-                                but you can also create your own or override existing.
-                            </div>
-                        </div>
-                  
                     </div>
                 </div>
             </div>

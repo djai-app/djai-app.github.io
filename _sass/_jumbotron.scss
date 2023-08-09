@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+.jumbotron.codegen{
+  background-image: url(../images/jumbo-bg-codegen.png);
+  margin: 0;
+}
+
 .jumbotron.studio {
   background-image: url(../images/jumbo-bg-studio.png);
 }
@@ -23,6 +28,14 @@
 .jumbotron .logoimg {
   text-align: center;
   padding-bottom: 3rem;
+}
+
+.jumbotron .logoimg .codegen-image {
+  width: 380px;
+
+  @media screen and (max-width: 993px) {
+    width: 60%;
+  }
 }
 
 .jumbotron .logoimg img {

@@ -33,17 +33,11 @@ New features and instrumentation coming soon.
 **For new project:**
 
 1. Clone repository of the project
-
 2.  Run ./gradlew intellij-plugin:runIde
-
 3.  Select + Create New Project -> Bootstrap from DifHub (on left nav)
-
 4.  Type your DifHub Username and Password, Organization Name where your system located.
-
 5.  Select required system and change defaults (optional) -> Press Next
-
 6.  Choose project name and directory
-
 7. Generate your project. Progress (or exception) you can see in the console output.
 
 

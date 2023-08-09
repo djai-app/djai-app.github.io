@@ -52,8 +52,40 @@
   font-size: 14px;
 }
 
-.projpage.codegen blockquote {
+.projpage.codegen ul {
+  padding-top: 15px;
+  padding-bottom: 2px;
+}
+
+.codegen blockquote {
   border-left-color: #bbc;
   background-color: #eef;
+  padding: 0px;
+}
+
+.codegen .key-feature .header {
+  color: #666;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.codegen .key-feature .description {
+  font-size: 14px;
+  padding-left: 16px;
+  line-height: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.codegen h1.section-header {
+  font-size: 32px;
+  color: #656e82;
+}
+
+.codegen .col-lg-10 .description {
+  font-size: 14px;
+  line-height: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
