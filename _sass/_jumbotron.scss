@@ -23,19 +23,37 @@
 .jumbotron .logoimg {
   text-align: center;
   padding-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .jumbotron .logoimg img {
 
   @media screen and (max-width: 993px) {
-    width: 70%;
+    width: 85px;
+    height: 60px;
   }
+  
 }
 
 .jumbotron .tagline {
   text-align: center;
   font-family: sans-serif;
   line-height: 4rem;
+}
+
+.jumbotron .tagline-0 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Open Sans';
+
+  @media screen and (max-width: 993px) {
+  font-size: 30px;
+  margin-bottom: 10px;
+  }
 }
 
 .jumbotron .tagline-1 {
