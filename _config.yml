@@ -15,7 +15,6 @@ mas_cli_url: https://github.com/redhat-developer/app-services-cli/releases
 email: apiman-user@lists.jboss.org
 future: true
 quickstart: true
-regenerate: true
 excerpt_separator: '---'
 plugins:
     - jekyll-redirect-from
